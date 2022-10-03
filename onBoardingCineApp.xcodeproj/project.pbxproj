@@ -51,12 +51,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BA3ED1828EAE16300B13A53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BC6447828DB48B300218437 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BA3ED1928EAE16A00B13A53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BC6447428DB46D800218437 /* MoviesView.swift */,
+				7B58B55B28DC702500FF4208 /* movieRow.swift */,
+				7BC6449F28DC64EE00218437 /* AddMovieView.swift */,
+				7BC6447E28DB4D0C00218437 /* ProfileView.swift */,
+				7BC6449D28DC5DC700218437 /* TabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BA3ED1A28EAE17500B13A53 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7B2F5F2C28DC93610037CDF7 /* MovieViewDetailModel.swift */,
+				7B58B55728DC6DFB00FF4208 /* MovieViewDetail.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7BA3ED1B28EAE18B00B13A53 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7BC6447C28DB4A6100218437 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		7BC6445528DB426B00218437 = {
 			isa = PBXGroup;
 			children = (
 				7BC6446128DB426B00218437 /* onBoardingCineAppApp.swift */,
 				7BC6446328DB426B00218437 /* ContentView.swift */,
-				7BC6449D28DC5DC700218437 /* TabBar.swift */,
 				7BC6446028DB426B00218437 /* onBoardingCineApp */,
 				7BC6445F28DB426B00218437 /* Products */,
 			);
@@ -75,14 +111,10 @@
 			children = (
 				7BC6446528DB426D00218437 /* Assets.xcassets */,
 				7BC6446728DB426D00218437 /* onBoardingCineApp.entitlements */,
-				7BC6447828DB48B300218437 /* MovieModel.swift */,
-				7BC6447428DB46D800218437 /* MoviesView.swift */,
-				7B58B55B28DC702500FF4208 /* movieRow.swift */,
-				7B58B55728DC6DFB00FF4208 /* MovieViewDetail.swift */,
-				7B2F5F2C28DC93610037CDF7 /* MovieViewDetailModel.swift */,
-				7BC6449F28DC64EE00218437 /* AddMovieView.swift */,
-				7BC6447E28DB4D0C00218437 /* ProfileView.swift */,
-				7BC6447C28DB4A6100218437 /* Data.swift */,
+				7BA3ED1828EAE16300B13A53 /* Model */,
+				7BA3ED1A28EAE17500B13A53 /* ViewModels */,
+				7BA3ED1928EAE16A00B13A53 /* Views */,
+				7BA3ED1B28EAE18B00B13A53 /* Data */,
 				7BC6446828DB426D00218437 /* Preview Content */,
 			);
 			path = onBoardingCineApp;
